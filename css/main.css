@@ -1,0 +1,181 @@
+/**BASE STYLES**/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: lighter;
+
+
+}
+
+h2 {
+  color: black;
+  font-family: didot;
+  font-size: 48pt;
+  text-transform: uppercase;
+  font-weight: 900;
+
+}
+
+h3 {
+  font-family: didot;
+  text-transform: lowercase;
+  font-size: 32pt;
+  line-height: 18pt;
+}
+
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: right;
+}
+
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+    padding: 0;
+}
+
+
+/*** HEADER ***/
+
+header {
+  height: 800px;
+  background: url("../img/flower.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: left;
+}
+
+nav {
+  text-align: right;
+  padding-top: 20px;
+}
+
+nav ul li{
+    display: inline;
+    padding-bottom: 300px;
+
+
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    text-align: left;
+    padding-right: 30px;
+
+}
+
+header h1 {
+  font-size: 48pt;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+header h1 span {
+  font-weight:900;
+  font-size: 60pt;
+  font-family: didot;
+  line-height: 150px;
+}
+
+/***ABOUT***/
+
+#about {
+  height: 1050px;
+  background-color: #f8deb5;
+  text-align: center;
+  padding-top: 250px;
+  text-transform: lowercase;
+}
+
+
+
+#about img {
+  border: 10px solid black;
+  width: 200px;
+}
+
+#about p{
+  padding-top: 34px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+
+/***WORK***/
+
+#work {
+
+  height: 850px;
+  background: url("../img/magic.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+  padding-top: 100px;
+
+}
+
+#work img {
+  height: 220px;
+  width: 350px;
+  border: 10px solid white;
+}
+
+
+#work h3{
+  font-size: 24pt;
+}
+
+#work p {
+  text-transform: uppercase;
+  font-weight:lighter;
+}
+
+/***CONTACT***/
+
+#contact {
+  height: 650px;
+  background-color: #1b1a16;
+  color: white;
+  padding-top: 100px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: white;
+  display:inline;
+}
+
+#contact h2 {
+  color: white;
+}
+
+
+
+#contact img {
+  width: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
